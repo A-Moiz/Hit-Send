@@ -23,6 +23,7 @@
 		9627A8842C4BF87300DB6832 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627A8832C4BF87300DB6832 /* InputView.swift */; };
 		9627A8862C4BF94600DB6832 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627A8852C4BF94600DB6832 /* ForgotPasswordView.swift */; };
 		9627A8882C4BF99900DB6832 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627A8872C4BF99900DB6832 /* RegistrationView.swift */; };
+		963E56292C550F22005AC569 /* UpdateDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E56282C550F22005AC569 /* UpdateDetailsView.swift */; };
 		96EFEC802C4BFAF100B89DE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EFEC7F2C4BFAF100B89DE4 /* ProfileView.swift */; };
 		96EFEC822C4BFC3900B89DE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96EFEC812C4BFC3800B89DE4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		9627A8832C4BF87300DB6832 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		9627A8852C4BF94600DB6832 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		9627A8872C4BF99900DB6832 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		963E56282C550F22005AC569 /* UpdateDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetailsView.swift; sourceTree = "<group>"; };
 		96EFEC7F2C4BFAF100B89DE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		96EFEC812C4BFC3800B89DE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				96EFEC7F2C4BFAF100B89DE4 /* ProfileView.swift */,
+				963E56282C550F22005AC569 /* UpdateDetailsView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				9627A85F2C4BF4B600DB6832 /* ContentView.swift in Sources */,
 				9627A85D2C4BF4B600DB6832 /* Hit_SendApp.swift in Sources */,
 				9627A8842C4BF87300DB6832 /* InputView.swift in Sources */,
+				963E56292C550F22005AC569 /* UpdateDetailsView.swift in Sources */,
 				9627A8812C4BF80500DB6832 /* LoginView.swift in Sources */,
 				9627A87C2C4BF74000DB6832 /* AuthViewModel.swift in Sources */,
 				9627A8882C4BF99900DB6832 /* RegistrationView.swift in Sources */,

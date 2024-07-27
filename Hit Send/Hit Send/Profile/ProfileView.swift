@@ -10,20 +10,37 @@ import SwiftUI
 struct ProfileView: View {
     @Environment(\.colorScheme) var colourScheme
     @EnvironmentObject var viewModel: AuthViewModel
+    @State private var updateDetails = false
+    
     var body: some View {
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-        Divider()
-        
-        Button {
-            viewModel.signOut()
-        } label: {
-            Text("Sign out")
+        NavigationStack {
+            VStack {
+                Text(viewModel.currentUser?.fullname ?? "")
+                
+                Divider()
+                
+                Button {
+                    viewModel.signOut()
+                } label: {
+                    Text("Sign out")
+                }
+                
+                Divider()
+                
+                Button {
+                    updateDetails.toggle()
+                } label: {
+                    Text("Update details")
+                }
+            }
+            .navigationTitle("Profile")
+            .sheet(isPresented: $updateDetails) {
+                UpdateDetailsView()
+            }
         }
     }
 }
 
-#Preview {
-    ProfileView()
-}
+//#Preview {
+//    ProfileView()
+//}
